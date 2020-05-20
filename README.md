@@ -4,6 +4,8 @@
 
 ## Wishlist
 
+1. [`GET /actor`](wishlist/get-actor/)
+
 [Instructions to contribute](CONTRIBUTING.md)
 
 ## About me
