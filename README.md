@@ -1,8 +1,4 @@
-# GitHub API Feedback
-
-> A curated wishlist for GitHub's APIs.
-
-## Wishlist
+# Wishlist
 
 1. [`GET /actor`](wishlist/get-actor/)
 
