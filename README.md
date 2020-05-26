@@ -2,6 +2,7 @@
 
 1. [`GET /actor`](wishlist/get-actor/)
 2. [Add `link` media type](whislist/link-media-type/)
+3. [Enable CORS for adjacent domains](whislist/cors-for-adjacent-domains/)
 
 [Instructions to contribute](https://github.com/gr2m/github-api-wishlist/blob/master/CONTRIBUTING.md)
 
