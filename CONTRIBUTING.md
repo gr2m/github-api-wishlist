@@ -1,6 +1,6 @@
 # Contributing
 
-Hi there! I'm thrilled that you'd like to contribute to `github-api.feedback`!
+Hi there! I'm thrilled that you'd like to contribute to my GitHub API wishlist!
 
 First things first: By participating in this project you agree to abide by the terms of our [Code of Conduct](CODE_OF_CONDUCT.md).
 
