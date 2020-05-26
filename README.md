@@ -1,6 +1,7 @@
 # Wishlist
 
 1. [`GET /actor`](wishlist/get-actor/)
+2. [Add `link` media type](whislist/link-media-type/)
 
 [Instructions to contribute](https://github.com/gr2m/github-api-wishlist/blob/master/CONTRIBUTING.md)
 
