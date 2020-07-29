@@ -10,9 +10,15 @@ In browsers, redirects are happening transparently. There is no way to access a 
 
 This is not a problem in any environment but browsers. Any other environment can access the `Location` header of the `302` response. But even for these environments, it might be more convenient to retrieve the redirect location and maybe other meta information such as expiration of the download URL as a JSON response.
 
-## Suggestion
+## Suggestions
 
-Add `Link` to the list of existing [Media Type formats](https://developer.github.com/v3/media/).
+### Option 1: enable CORS headers in adjacent domains
+
+The best solution would be to [add CORS headers to all api.github-com-adjacent domains](../cors-for-adjacent-domains). That would allow to send `HEAD` requests which would follow the redirects without downloading response bodies. Browsers can read out `response.url` after the final redirect, if the `HEAD` request was successful.
+
+### Option 2: add `link` media type
+
+Add `link` to the list of existing [Media Type formats](https://developer.github.com/v3/media/).
 
 A new section might look like this
 
