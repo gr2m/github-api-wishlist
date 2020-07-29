@@ -1,6 +1,6 @@
 # Enable CORS for adjacent domains
 
-Domains such as `uploads.github.com`, `codeland.github.com`, and GitHubs `*.s3.amazonaws.com` should have the same CORS settings as `api.github.com`
+Domains such as `uploads.github.com`, `codeland.github.com`, `pipelines.actions.githubusercontent.com`, and GitHubs `*.s3.amazonaws.com` should have the same CORS settings as `api.github.com`
 
 ## Why
 
@@ -14,6 +14,7 @@ There are no possible workarounds due to the browser's security model.
 
 - Upload/Download a release asset (See [octokit/rest.js#758](https://github.com/octokit/rest.js/issues/758))
 - Download a repository archive (See [octokit/rest.js#758](https://github.com/octokit/rest.js/issues/758))
+- [Get raw-log URL for GitHub Action run](https://github.com/octokit/rest.js/discussions/1805)
 
 ---
 
