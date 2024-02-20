@@ -14,10 +14,11 @@ There are no possible workarounds due to the browser's security model.
 
 ## Use case
 
-- Upload/Download a release asset (See [octokit/rest.js#758](https://github.com/octokit/rest.js/issues/758))
-- Download a repository archive (See [octokit/rest.js#758](https://github.com/octokit/rest.js/issues/758))
-- [Get raw-log URL for GitHub Action run](https://github.com/octokit/rest.js/discussions/1805)
-- [Get download URL for GitHub Action artifact](https://github.com/octokit/request.js/issues/240)
+- Upload/Download a release asset (See [octokit/octokit.js#758](https://github.com/octokit/octokit.js/issues/758))
+- Download a repository archive (See [octokit/octokit
+octokit.js#758](https://github.com/octokit/octokit.js/issues/758))
+- [Get raw-log URL for GitHub Action run](https://github.com/octokit/octokit.js/discussions/1805)
+- [Get download URL for GitHub Action artifact](https://github.com/octokit/octokit.js/issues/240)
 
 ---
 
